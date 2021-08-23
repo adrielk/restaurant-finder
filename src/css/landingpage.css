@@ -1,0 +1,82 @@
+/* BEM naming convention: block, element, modifier
+   Example: .stick-man__head--small
+            Block: stick-man
+            Element: head
+            Modifier: small 
+*/
+/* Helpful CSS: - https://stackoverflow.com/questions/12811149/what-does-the-dot-mean-in-css 
+                - https://www.codecademy.com/forum_questions/55f953949376762e80000514
+*/
+.landing-title{
+    width:60%;
+    height:20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #50C878;
+    align-items: center;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    position:fixed;
+    left:50%;
+    top:10%;
+    transform:translate(-50%, 0%);
+}
+
+.sub-title{
+    /* color:white; */
+    text-align: center;
+    font-style:"Helvetica";
+    font-weight:lighter;
+    color:white;
+    font-size: 30px;
+    position:fixed;
+    left:50%;
+    transform:translate(-50%, -50%);
+    top:25%;
+}
+
+.landing-search{
+    width:60vh;
+    background-color:white;
+    border-radius:50px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index:1;
+}
+
+.search-bar{
+    width:50vh;
+}
+
+.background-img{
+    width:60%;
+    height:40%;
+    position:fixed;
+    object-fit:cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 0;
+}
+
+.footer{
+    display:flex;
+    padding-left:10px;
+    justify-content:left;
+    align-items:center;
+    position:fixed;
+    height:40px;
+    left:0;
+    bottom:0px;
+    width:100%;
+    background-color:#161618;
+    color:white;
+    font-size:20px;
+    font-style:Helvetica;
+    font-weight:bold;
+}

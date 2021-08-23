@@ -1,0 +1,23 @@
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-marker{
+    width:70%;
+}
+
+.marker{
+    width:80%;
+}
+.marker-closed{
+    filter:contrast(0%);
+}
+.marker:hover {
+    filter: contrast(50%);
+}
+.marker:active {
+    width:100%;
+    filter:contrast(100%);
+    transform: translate(-5%,-5%);
+}
